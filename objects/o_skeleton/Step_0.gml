@@ -52,6 +52,11 @@ switch (state)
 		{
 			collide_and_move(-roll_speed, 0);
 		}
+		
+		if animation_hit_frame(6)
+		{
+			state = "move";	
+		}
 		#endregion		
 
 		break;

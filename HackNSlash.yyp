@@ -56,6 +56,7 @@
     {"id":{"name":"o_input","path":"objects/o_input/o_input.yy",},},
     {"id":{"name":"s_knight_mask","path":"sprites/s_knight_mask/s_knight_mask.yy",},},
     {"id":{"name":"o_skeleton","path":"objects/o_skeleton/o_skeleton.yy",},},
+    {"id":{"name":"animation_hit_frame","path":"scripts/animation_hit_frame/animation_hit_frame.yy",},},
     {"id":{"name":"set_state_Sprite","path":"scripts/set_state_Sprite/set_state_Sprite.yy",},},
     {"id":{"name":"animation_hit_frame_range","path":"scripts/animation_hit_frame_range/animation_hit_frame_range.yy",},},
     {"id":{"name":"s_skeleton_idle","path":"sprites/s_skeleton_idle/s_skeleton_idle.yy",},},

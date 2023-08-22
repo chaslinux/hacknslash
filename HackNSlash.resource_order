@@ -36,6 +36,7 @@
     {"name":"get_input","order":3,"path":"scripts/get_input/get_input.yy",},
     {"name":"o_input","order":2,"path":"objects/o_input/o_input.yy",},
     {"name":"s_knight_mask","order":4,"path":"sprites/s_knight_mask/s_knight_mask.yy",},
+    {"name":"animation_hit_frame","order":4,"path":"scripts/animation_hit_frame/animation_hit_frame.yy",},
     {"name":"set_state_Sprite","order":2,"path":"scripts/set_state_Sprite/set_state_Sprite.yy",},
     {"name":"animation_hit_frame_range","order":1,"path":"scripts/animation_hit_frame_range/animation_hit_frame_range.yy",},
     {"name":"s_skeleton_idle","order":8,"path":"sprites/s_skeleton_idle/s_skeleton_idle.yy",},
