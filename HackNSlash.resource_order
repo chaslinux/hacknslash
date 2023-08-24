@@ -32,6 +32,7 @@
     {"name":"o_knight","order":3,"path":"objects/o_knight/o_knight.yy",},
     {"name":"s_skeleton_attack_three","order":2,"path":"sprites/s_skeleton_attack_three/s_skeleton_attack_three.yy",},
     {"name":"s_skeleton_attack_two","order":4,"path":"sprites/s_skeleton_attack_two/s_skeleton_attack_two.yy",},
+    {"name":"o_lifeform","order":5,"path":"objects/o_lifeform/o_lifeform.yy",},
     {"name":"s_skeleton_hitstun","order":7,"path":"sprites/s_skeleton_hitstun/s_skeleton_hitstun.yy",},
     {"name":"s_wall","order":13,"path":"sprites/s_wall/s_wall.yy",},
     {"name":"o_wall","order":1,"path":"objects/o_wall/o_wall.yy",},

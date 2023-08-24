@@ -51,6 +51,7 @@
     {"id":{"name":"o_knight","path":"objects/o_knight/o_knight.yy",},},
     {"id":{"name":"s_skeleton_attack_three","path":"sprites/s_skeleton_attack_three/s_skeleton_attack_three.yy",},},
     {"id":{"name":"s_skeleton_attack_two","path":"sprites/s_skeleton_attack_two/s_skeleton_attack_two.yy",},},
+    {"id":{"name":"o_lifeform","path":"objects/o_lifeform/o_lifeform.yy",},},
     {"id":{"name":"s_skeleton_hitstun","path":"sprites/s_skeleton_hitstun/s_skeleton_hitstun.yy",},},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},},
