@@ -33,11 +33,12 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.800.0.389",
+    "IDEVersion": "2023.200.0.299",
   },
   "resources": [
     {"id":{"name":"s_skeleton_roll","path":"sprites/s_skeleton_roll/s_skeleton_roll.yy",},},
     {"id":{"name":"s_skeleton_bones","path":"sprites/s_skeleton_bones/s_skeleton_bones.yy",},},
+    {"id":{"name":"animation_end","path":"scripts/animation_end/animation_end.yy",},},
     {"id":{"name":"s_knight_die","path":"sprites/s_knight_die/s_knight_die.yy",},},
     {"id":{"name":"s_skeleton_attack_three_damage","path":"sprites/s_skeleton_attack_three_damage/s_skeleton_attack_three_damage.yy",},},
     {"id":{"name":"collide_and_move","path":"scripts/collide_and_move/collide_and_move.yy",},},

@@ -53,10 +53,12 @@ switch (state)
 			collide_and_move(-roll_speed, 0);
 		}
 		
-		if animation_hit_frame(6)
+		if animation_end()
 		{
 			state = "move";	
 		}
+		
+
 		#endregion		
 
 		break;
@@ -71,6 +73,11 @@ switch (state)
 			state = "attack two";
 	
 		}
+		
+		if animation_end()
+		{
+			state = "move";	
+		}
 		#endregion
 		break;
 		
@@ -84,13 +91,21 @@ switch (state)
 			state = "attack three";
 	
 		}
+		
+		if animation_end()
+		{
+			state = "move";	
+		}
 		#endregion
 		break;
 		
 	case "attack three":
 		#region Attack Three State
 		set_state_sprite(s_skeleton_attack_three, 0.4, 0);
-		
+		if animation_end()
+		{
+			state = "move";	
+		}
 		#endregion
 		break;
 }

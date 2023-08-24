@@ -21,6 +21,7 @@
   "ResourceOrderSettings": [
     {"name":"s_skeleton_roll","order":10,"path":"sprites/s_skeleton_roll/s_skeleton_roll.yy",},
     {"name":"s_skeleton_bones","order":6,"path":"sprites/s_skeleton_bones/s_skeleton_bones.yy",},
+    {"name":"animation_end","order":5,"path":"scripts/animation_end/animation_end.yy",},
     {"name":"s_knight_die","order":1,"path":"sprites/s_knight_die/s_knight_die.yy",},
     {"name":"s_skeleton_attack_three_damage","order":3,"path":"sprites/s_skeleton_attack_three_damage/s_skeleton_attack_three_damage.yy",},
     {"name":"s_knight_walk","order":5,"path":"sprites/s_knight_walk/s_knight_walk.yy",},
