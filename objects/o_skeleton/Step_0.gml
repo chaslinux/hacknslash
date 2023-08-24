@@ -67,6 +67,11 @@ switch (state)
 		#region Attack One State
 		set_state_sprite(s_skeleton_attack_one, 0.4, 0);
 		
+		if animation_hit_frame(0)
+		{
+			create_hitbox(x,y,self,s_skeleton_attack_one_damage, 4, 4, 1, image_xscale);
+		}
+		
 		if input.attack and animation_hit_frame_range(2, 4)
 		{
 			
@@ -84,6 +89,11 @@ switch (state)
 	case "attack two":
 		#region Attack Two State
 		set_state_sprite(s_skeleton_attack_two, 0.4, 0);
+
+		if animation_hit_frame(1)
+		{
+			create_hitbox(x,y,self,s_skeleton_attack_two_damage, 4, 4, 1, image_xscale);
+		}	
 		
 		if input.attack and animation_hit_frame_range(2, 4)
 		{
@@ -102,6 +112,12 @@ switch (state)
 	case "attack three":
 		#region Attack Three State
 		set_state_sprite(s_skeleton_attack_three, 0.4, 0);
+		
+		if animation_hit_frame(2)
+		{
+			create_hitbox(x,y,self,s_skeleton_attack_three_damage, 4, 4, 1, image_xscale);
+		}
+		
 		if animation_end()
 		{
 			state = "move";	
